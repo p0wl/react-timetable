@@ -17,7 +17,7 @@ var Controller = React.createClass({
 
   render: function() {
     return (
-      <Locations>
+      <Locations hash>
         <Location path="/" handler={HomeView} />
         <Location path="/:category/overview/:week" handler={Overview} />
         <Location path="/:category/edit/:date" handler={DayView} />
